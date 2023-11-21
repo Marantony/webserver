@@ -1,4 +1,4 @@
-![ex01](https://github.com/Marantony/webserver/assets/147474422/7adf048e-b08d-4aa3-a50b-2c7472d0ba22)# Developing a Simple Webserver
+# Developing a Simple Webserver
 
 # AIM:
 
@@ -27,6 +27,7 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
+```
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content=''' 
@@ -56,6 +57,7 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
+```
 
 
 
