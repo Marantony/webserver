@@ -1,4 +1,4 @@
-![ex01](https://github.com/Marantony/webserver/assets/147474422/c9e9e7e7-e19b-4537-861e-fcc230671e7b)# Developing a Simple Webserver
+# Developing a Simple Webserver
 
 # AIM:
 
@@ -59,7 +59,7 @@ httpd.serve_forever()
 
 
 ## OUTPUT:
-
+![Uploading ex01.png…]()
 
 ## RESULT:
 The program is executed succesfully
